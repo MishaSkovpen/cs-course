@@ -1,0 +1,65 @@
+1
+using System;
+
+public class imlazyshit
+{
+	public static void Main()
+	{
+		int i = 450;
+		int j = i + 9834; 
+		Console.WriteLine("j = {0}", j);
+		
+		i = 12;
+		j = i - 890; 
+		Console.WriteLine("j = {0}", j);
+		
+		i = 675;
+		j = i * -78 + 52650; 
+		Console.WriteLine("j = {0}", j);
+		
+	}
+}
+
+
+2.
+
+using System;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp6
+{
+class Program
+{
+  static void Main(string[] args)
+  {
+    Console.BackgroundColor = ConsoleColor.White;
+    Console.ForegroundColor = ConsoleColor.Black;
+    
+    double U;
+    double R;
+    double I;
+    
+    Console.Write ("Введеня напруги: U=");
+    string strU = Console.ReadLine();
+     U = double.Parse(strU);
+     Console.WriteLine("enter R= ");
+ 
+            string strR = Console.ReadLine();
+            R = double.Parse(strR);
+            if (U< 0) {
+                I = U / R;
+                Console.WriteLine ($"I={I}, R={R}");
+                
+            }
+            else {
+                Console.WriteLine("error");
+            }
+            Console.ReadLine();
+            
+    
+  }
+}
+}
+
+3.
